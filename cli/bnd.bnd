@@ -3,20 +3,20 @@ Bundle-Version: ${project.version}.${tstamp}
 JPM-Command: blade
 Main-Class: com.liferay.blade.cli.BladeCLI
 Private-Package:\
-	aQute.bnd.header,\
-	aQute.bnd.maven,\
-	aQute.bnd.osgi,\
-	aQute.bnd.service,\
-	aQute.bnd.version,\
+	aQute.bnd.header;-split-package:=merge-first,\
+	aQute.bnd.maven;-split-package:=merge-first,\
+	aQute.bnd.osgi;-split-package:=merge-first,\
+	aQute.bnd.service;-split-package:=merge-first,\
+	aQute.bnd.version;-split-package:=merge-first,\
 	\
-	aQute.lib.io,\
-	aQute.lib.utf8properties,\
+	aQute.lib.io;-split-package:=merge-first,\
+	aQute.lib.utf8properties;-split-package:=merge-first,\
 	\
-	aQute.libg.generics,\
-	aQute.libg.qtokens,\
-	aQute.libg.reporter,\
+	aQute.libg.generics;-split-package:=merge-first,\
+	aQute.libg.qtokens;-split-package:=merge-first,\
+	aQute.libg.reporter;-split-package:=merge-first,\
 	\
-	aQute.service.reporter,\
+	aQute.service.reporter;-split-package:=merge-first,\
 	\
 	com.liferay.blade.cli.*,\
 	com.liferay.blade.gradle.tooling.*,\
@@ -48,14 +48,14 @@ Private-Package:\
 	org.apache.commons.lang3.exception,\
 	org.apache.commons.lang3.text,\
 	\
-	org.gradle,\
-	org.gradle.api,\
-	org.gradle.api.internal,\
-	org.gradle.api.logging,\
-	org.gradle.api.reflect,\
-	org.gradle.api.resources,\
-	org.gradle.api.specs,\
-	org.gradle.groovy.scripts,\
+	org.gradle;-split-package:=merge-first,\
+	org.gradle.api;-split-package:=merge-first,\
+	org.gradle.api.internal;-split-package:=merge-first,\
+	org.gradle.api.logging;-split-package:=merge-first,\
+	org.gradle.api.reflect;-split-package:=merge-first,\
+	org.gradle.api.resources;-split-package:=merge-first,\
+	org.gradle.api.specs;-split-package:=merge-first,\
+	org.gradle.groovy.scripts;-split-package:=merge-first,\
 	org.gradle.initialization,\
 	org.gradle.initialization.layout,\
 	org.gradle.internal,\
@@ -106,24 +106,24 @@ Private-Package:\
 	org.gradle.tooling.internal.consumer.loader,\
 	org.gradle.tooling.internal.consumer.parameters,\
 	org.gradle.tooling.internal.consumer.versioning,\
-	org.gradle.tooling.internal.gradle,\
-	org.gradle.tooling.internal.protocol,\
+	org.gradle.tooling.internal.gradle;-split-package:=merge-first,\
+	org.gradle.tooling.internal.protocol;-split-package:=merge-first,\
 	org.gradle.tooling.internal.protocol.eclipse,\
-	org.gradle.tooling.internal.protocol.events,\
-	org.gradle.tooling.internal.protocol.exceptions,\
-	org.gradle.tooling.internal.protocol.test,\
+	org.gradle.tooling.internal.protocol.events;-split-package:=merge-first,\
+	org.gradle.tooling.internal.protocol.exceptions;-split-package:=merge-first,\
+	org.gradle.tooling.internal.protocol.test;-split-package:=merge-first,\
 	org.gradle.tooling.internal.provider,\
-	org.gradle.tooling.model,\
-	org.gradle.tooling.model.build,\
-	org.gradle.tooling.model.cpp,\
-	org.gradle.tooling.model.eclipse,\
-	org.gradle.tooling.model.gradle,\
-	org.gradle.tooling.model.idea,\
-	org.gradle.tooling.model.internal,\
-	org.gradle.tooling.model.internal.outcomes,\
+	org.gradle.tooling.model;-split-package:=merge-first,\
+	org.gradle.tooling.model.build;-split-package:=merge-first,\
+	org.gradle.tooling.model.cpp;-split-package:=merge-first,\
+	org.gradle.tooling.model.eclipse;-split-package:=merge-first,\
+	org.gradle.tooling.model.gradle;-split-package:=merge-first,\
+	org.gradle.tooling.model.idea;-split-package:=merge-first,\
+	org.gradle.tooling.model.internal;-split-package:=merge-first,\
+	org.gradle.tooling.model.internal.outcomes;-split-package:=merge-first,\
 	org.gradle.tooling.provider,\
-	org.gradle.util,\
-	org.gradle.wrapper,\
+	org.gradle.util;-split-package:=merge-first,\
+	org.gradle.wrapper;-split-package:=merge-first,\
 	\
 	org.jsoup,\
 	org.jsoup.helper,\
@@ -142,7 +142,7 @@ Private-Package:\
 	org.osgi.service.bindex,\
 	org.osgi.service.indexer,\
 	org.osgi.service.log,\
-	org.osgi.service.repository,\
+	org.osgi.service.repository;-split-package:=merge-first,\
 	\
 	org.slf4j;-split-package:=merge-first,\
 	org.slf4j.event;-split-package:=merge-first,\
